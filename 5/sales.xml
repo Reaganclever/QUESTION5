@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Root Element -->
+<sales>
+
+<sale><productID>P001</productID><productName>BISCUITS</productName><quantitySold>20</quantitySold><price>10000</price></sale>
+<sale><productID>P002</productID><productName>BREAD</productName><quantitySold>12</quantitySold><price>6000</price></sale>
+
+</sales>

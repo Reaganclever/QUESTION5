@@ -1,0 +1,108 @@
+/* Page Styling */
+
+body{
+font-family: Arial, sans-serif;
+background-image: url(retail.jpg);
+background-size: cover;
+background-position: center;
+background-attachment: fixed;
+display: flex;
+justify-content: center;
+align-items: center;
+min-height: 100vh;
+margin: 0;
+}
+
+
+/* Main Container */
+
+.container{
+ position: relative;
+ background: rgba(255, 255, 255, 0.08);
+backdrop-filter: blur(20px);
+-webkit-backdrop-filter: blur(20px);
+border: 1px solid rgba(255, 255, 255, 0.15);
+box-shadow: 0 8px 32px rgba(0, 0, 0, 0.2);
+ padding: 30px;
+border-radius: 40px;
+width: 80%;
+    
+    
+}
+
+.retail {  
+height: 200px;
+width: 100%;
+border-radius: 20px;
+background-image: url('shop.jpg');
+}
+
+
+/* Heading */
+
+h1{
+
+    text-align: center;
+    
+    margin-bottom: 10px;
+}
+
+
+/* Button Styling */
+
+button{
+padding: 10px 20px;
+background-color: grey;
+color: white;
+border: none;
+border-radius: 5px;
+cursor: pointer;
+margin-bottom: 20px;
+}
+
+
+/* Hover Effect */
+
+button:hover{
+
+    background-color: darkgrey;
+}
+
+
+/* Table Styling */
+
+table{
+width: 100%;
+border-collapse: collapse;
+}
+
+
+/* Table Cells */
+
+th, td{
+
+    border: 1px solid black;
+
+    padding: 10px;
+
+    text-align: center;
+}
+
+
+/* Table Headings */
+
+th{
+
+    background-color: grey;
+}
+
+
+/* Responsive Table */
+
+@media(max-width: 768px){
+
+    table{
+
+        font-size: 14px;
+    }
+}
